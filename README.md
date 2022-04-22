@@ -20,23 +20,5 @@ So right below in the star rule.
 I gave the star elements a translate 3D of 180 pixels on the y axis.
 This is how they're able to slide up from the bottom of the circle.
 And then I call the slide and grow animations with the animation property.
-So like we did earlier in the badge animation.
 I staggered the star animations by giving each element an animation delay,
 using an nth-of-type selector.
-And that's pretty much it.
-Now you probably did things a little bit differently, and
-that's okay since there's no 100% right way of doing this.
-It's just the method I used.
-So keep up the good work.
-And if you want,
-you can share your new animation sequence with other students on our forum.
-As you learned throughout this course, SVG animations are fun and interesting.
-As web designers, we should be excited about the current state and3:19
-future of SVG Animation, because it's an increasingly important part of web design.
-The methods I covered should give you lots of new ideas for
-using SVG animations in your project.
-So to practice what you've learned in this course.
-You can replace some of the graphics on your website with SVG,
-then add simple animations.
-Or try adding other transform functions like translate, and
-skew to the animation sequence you created earlier.
