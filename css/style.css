@@ -3,14 +3,14 @@
 --------------------------- */
 
 body {
-  padding-top: 60px;
-	background: #0f4e7a;
+  	padding-top: 60px;
+	background: #a3bad1;
 }
 
 svg {
 	margin: auto;
-  display: block;
-	width: 28%;
+ 	display: block;
+	width: 20%;
 }
 
 /* --------------------------
