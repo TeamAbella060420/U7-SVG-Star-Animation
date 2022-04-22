@@ -1,11 +1,10 @@
 # U7-SVG-Star-Animation
  
-So in my style sheet, I created three key frame rules and named the animation slide, grow and off set. So the slide animation uses three key frames to create that slide up motion of the stars. Instead of creating the slide movement by animating the star's position, margin, or padding. I used a transform with the translate 3D function in each key frame. The second value in the translate3d function is what translates or moves the element on the y axis. Now translate 3d is a hardware-accelerated function. This makes the animation play a whole lot smoother in the browser. So next, the grow animation is very similar to the one I created for the badge animation. I'm using the rotate and scale transform functions.
+So in my style sheet, I created three key frame rules and named the animation slide, grow and off set. So the slide animation uses three key frames to create that slide up motion of the stars. Instead of creating the slide movement by animating the star's position, margin, or padding. I used a transform with the translate 3D function in each key frame. The second value in the translate3d function is what translates or moves the element on the y axis. Now translate 3d is a hardware-accelerated function. This makes the animation play a whole lot smoother in the browser. I'm using the rotate and scale transform functions.
 To create that pulsing effect in the stars.
 I'm also animating the elements opacity to one and fill color to yellow here at 50%.
 Right below this rule, the offset animation
 animates the circle element's stroke-offset property to zero.
-Just like we did earlier with the Treehouse logo.
 It also animates the stroke opacity to one in the 60% key frame.
 So I didn't need to create seven different keyframe rules
 to make this animation work.
